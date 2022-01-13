@@ -34,8 +34,3 @@
 13. After that go to Cloudfront and create a distribution for the www. For origin domain you have to go to S3 an take the URL from the static website hosting in the bottom. Also change the Viewer Protocol Policy to Redirect HTTP to HTTPS. Furthermore you have to put the URL of the website in the "Alternate domain name" field and choose the ustom SSL certificate (which must be in us east1).
 14. Change the A Records from both buckets in Route 53 to the Cloudfront Distribution
 
-
-
-
-![ImgName](https://github.com/KarimsHub/Doubly_linked_list_datastructure/blob/master/sllvsdll.jpg?raw=true)
-
